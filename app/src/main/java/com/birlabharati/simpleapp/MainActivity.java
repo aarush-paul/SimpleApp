@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
         WebView myWebView = (WebView) findViewById(R.id.webView);
-        myWebView.loadUrl("file:///android_asset/index.html");
+        myWebView.loadUrl("file:///android_asset/static/index.html");
         myWebView.getSettings().setJavaScriptEnabled(true);
 
     }
